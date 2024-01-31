@@ -1,0 +1,96 @@
+/* RatingStars.css */
+
+.rating-stars {
+    font-size: 0px; 
+  }
+  
+  .rating-stars button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    transition: transform 0.3s; /* Smooth transition for size change */
+  }
+  
+  .rating-stars button:focus {
+    outline: none;
+  }
+  
+  .star-filled {
+    color: orange; /* Color for filled stars */
+  }
+  
+  .star-empty {
+    color: gray; /* Initial color for empty stars */
+  }
+  
+  /* Change size of stars on hover or focus */
+  .rating-stars button:hover,
+  .rating-stars button:focus {
+    transform: scale(1.2);
+    color: orange; /* Increase size on hover or focus */
+  }
+.table{
+    width:100%;
+}
+.form{
+    bottom: 0;
+    padding-top: 50px;
+    
+}
+.limited-width {
+  max-width: 400px; /* Adjust this value as needed */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Optional: add ellipsis for text overflow */
+  white-space: normal; /* Optional: prevent wrapping */
+}
+
+.stock-subtitle {
+  margin-top: 10px; 
+  margin-bottom: 10px;
+}
+.is-small1 {
+  width: 500px; /* Adjust the width as needed */
+  height: 400px; /* Adjust the height as needed */
+}
+.form {
+  width: 100%;
+  max-width: 500px; /* Adjust the maximum width as needed */
+  margin: auto; /* Center the form horizontally */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.rating-stars {
+  margin-bottom: 20px;
+}
+
+.star-filled, .star-empty {
+  font-size: 20px;
+  color: #ffd700; /* Gold color for filled star */
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.star-empty {
+  color: #ddd; /* Light gray color for empty star */
+}
+
+.textarea {
+  min-height: 100px; /* Set a minimum height for the textarea */
+}
+
+.button {
+  margin-top: 20px;
+}
+.rating{
+  max-height: 300px;
+  overflow-y: auto;
+}
+.fixed-width {
+  width: 200px;
+}
